@@ -57,9 +57,11 @@ This means model 4. ("rc1") with a neural network size 100, weight decay set to 
 
 1. Clone this repository three times:
 
-    git clone https://github.com/ha7ilm/roblue roblue_case_1
-    git clone https://github.com/ha7ilm/roblue roblue_case_2
-    git clone https://github.com/ha7ilm/roblue roblue_case_3
+```bash
+git clone https://github.com/ha7ilm/roblue roblue_case_1
+git clone https://github.com/ha7ilm/roblue roblue_case_2
+git clone https://github.com/ha7ilm/roblue roblue_case_3
+```
 
 2. Edit `roblue/roblue.py` accordingly (for the three different `paper_case = █`).
 3. Choose the case to run. Navigate to `cd roblue_case_█/roblue`.
