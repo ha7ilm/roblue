@@ -88,6 +88,22 @@ The 150-step-NRMS per simulation case 3., model 0.b. figure: `your_case_3_dir/ex
 
 (This is supposing that you cloned the repo into `your_case_3_dir`, `your_case_2_dir` and `your_case_1_dir` to reproduce all three cases.)
 
+## Robot model
+
+You can generate the robot model yourself from the DH parameters using SymPyBotics: 
+
+```bash
+git clone https://github.com/cdsousa/SymPyBotics ../../sympybotics
+pip install -e ../../sympybotics
+pip install sympy==1.3
+./sympybotics_make.sh
+```
+
+SymPy 1.3 is the last version of SymPy that works OK with Python 10, the Python version in Anaconda at the time of writing. 
+To get the full functionality of SymPyBotics, you should use `sympy==0.7.5` and an older version of Python also. 
+The version of SymPyBotics at the time of writing is `49ac817`.
+The DH parameters used to generate the model can be found in `sympybotics_model.py`.
+
 ## Paper <a name="paper"></a>
 
 You can cite our paper as:
