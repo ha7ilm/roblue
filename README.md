@@ -115,4 +115,4 @@ TODO
 
 The code is available under GPLv3 license, see `LICENSE`.
 
-OpenAI models GPT-3.5-turbo, GPT-4, Codex were used to improve the code in this repository. 
+OpenAI models GPT-3.5-turbo, GPT-4, Codex were used to improve and partially generate the code in this repository. 
