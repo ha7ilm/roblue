@@ -90,7 +90,7 @@ The 150-step-NRMS per simulation case 3., model 0.b. figure: `your_case_3_dir/ex
 
 You can cite our paper as:
 ```
-András Retzler, Roland Tóth, Maarten Schoukens, Gerben Beintema, Jonas Weigand, Jean-Philippe Noël, Zsolt Kollár and Jan Swevers, "Learning-based augmentation of physics-based models: an industrial robot use case", TODO, 2023, vol. TODO, p. TODO
+TODO
 ```
 
 ## Notes
