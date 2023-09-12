@@ -13,7 +13,7 @@ In this repository you find an implementation of a system identification method 
 - An Anaconda environment: we have tested it with `conda 23.3.1`.
 - `tmux`, the terminal multiplexer from the Ubuntu repositories: `sudo apt install tmux`, we tested it with version 3.0a. (In the hyperparameter tuning, each of the processes will run in parallel, in a separate `tmux` tab.)
 - PyTorch: we have tested it with `1.11.0+cu113`. The command to install it into the Anaconda environment: 
-- Other PIP packages: `pip install plotly kaleido matplotlib numpy tqdm scipy`
+- Other PIP packages: `pip install plotly kaleido matplotlib numpy tqdm scipy portalocker`
 
 ```
 pip install torch==1.11.0+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
