@@ -2221,7 +2221,7 @@ onedarray2mat = lambda x: x.reshape(x.shape[0],1)
 measurable_states = np.array(range(12)) #TUNEIT
 
 ## Settings
-generate_initial_fit_figures = False if not from_exp_dir else (True if really_from_exp_dir else False) #DEBUGME #IMPORTANT
+generate_initial_fit_figures = False if not from_exp_dir else (True if really_from_exp_dir else True) #DEBUGME #IMPORTANT
 show_input_on_start = False
 fit_to_simulated_data = True if not from_exp_dir else not exp_real_data #IMPORTANT
 filter_from = 200
@@ -2386,7 +2386,9 @@ data_dt = 0.004 #it should be the same as in `diff(z.time)`
 #plt.clf(), plt.plot(myfftresamp(robot_mat['realizations'][0][0]['y_data_f_avg_V'][0][0].T,600*2,fd_input=True)[0].T)
 
 #load mat files
-robot_mat_29, robot_mat_45, ref_trajectories = map(lambda x: loadmat(x if os.path.exists(x) else f'../common_data/{x}'), ['py_recording_2021_12_15_20H_29M.mat', 'py_recording_2021_12_15_20H_45M.mat', 'ref_trajectories.mat'])
+robot_mat_29 = None
+ref_trajectories = None
+robot_mat_45 = loadmat('../common_data/py_recording_2021_12_15_20H_45M.mat')
 
 #use just the original data (first period), without resampling:
 u_training1_td   = robot_mat_45['realizations'][0][0]['periods'][0][0][0][0]['u_data_V'][0][0].astype(np.float32)
