@@ -7,6 +7,7 @@ In this repository you find an implementation of a system identification method 
 ➡️ TL;DR our main result is that, compared to either a purely physics-based or purely black-box approach, the longterm simulation of the robot dynamics can be improved by combining a physics-based model with neural networks in the appropriate way. In the case of this system, the best way to do it is to apply the appropriate structure (separate neural networks per joint). Interested? Check out the [paper](http://dx.doi.org/10.1017/dce.2024.8).
 
 The robot considered looks like this:
+
 <img src="roblue.png" width="400px"></img>
 
 ## Requirements
