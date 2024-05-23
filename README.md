@@ -107,9 +107,9 @@ The DH parameters used to generate the model can be found in `sympybotics_model.
 ## Paper <a name="paper"></a>
 
 You can cite our [📜 paper](https://www.cambridge.org/core/journals/data-centric-engineering/article/learningbased-augmentation-of-physicsbased-models-an-industrial-robot-use-case/7AD013ACA2A48761D3F5FD956239B6A4?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark) as:
-```
-A. Retzler, R. Tóth, M. Schoukens, G. I. Beintema, J. Weigand, J-P. Noël, Zs. Kollár, and J. Swevers, “Learning-based augmentation of physics-based models: an industrial robot use case,” Data-Centric Engineering, vol. 5, p. e12, 2024. doi:10.1017/dce.2024.8
-```
+
+> A. Retzler, R. Tóth, M. Schoukens, G. I. Beintema, J. Weigand, J-P. Noël, Zs. Kollár, and J. Swevers, “Learning-based augmentation of physics-based models: an industrial robot use case,” Data-Centric Engineering, vol. 5, p. e12, 2024. doi:10.1017/dce.2024.8
+
 (or as a [BibTeX](https://www.doi2bib.org/bib/10.1017/dce.2024.8) entry).
 
 ## Notes
