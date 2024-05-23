@@ -2,11 +2,13 @@
 
 ## Learning-based augmentation of physics-based models: an industrial robot use case
 
-In this repository you find an implementation of a system identification method for combined physics-based and neural network models. We use an [input/output dataset recorded from a KUKA KR300 R2500 Ultra robot](https://www.nonlinearbenchmark.org/benchmarks/industrial-robot). You can also find the physics-based model of this robot here.  Furthermore, this repository allows you to reproduce the results in our related [paper](http://dx.doi.org/10.1017/dce.2024.8).
+In this repository you find an implementation of a system identification method for combined physics-based and neural network models. We use an [input/output dataset recorded from a KUKA KR300 R2500 Ultra robot](https://www.nonlinearbenchmark.org/benchmarks/industrial-robot). You can also find the physics-based model of this robot here.  
+
+This research is part of my [PhD thesis](https://lirias.kuleuven.be/4129222&lang=en).
 
 > ➡️ TL;DR our main result is that, compared to either a purely physics-based or purely black-box approach, the longterm simulation of the robot dynamics can be improved by combining a physics-based model with neural networks in the appropriate way. In the case of this system, the best way to do it is to apply the appropriate structure (separate neural networks per joint).
 
-Interested? Check out the [paper](http://dx.doi.org/10.1017/dce.2024.8).
+Interested? Check out the [paper](http://dx.doi.org/10.1017/dce.2024.8). The point of this repo is to allow you to reproduce the results.
 
 The robot considered looks like this:
 
